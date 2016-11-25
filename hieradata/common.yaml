@@ -6,37 +6,8 @@ classes:
 
 hash_resources::resources:
     package:
-        binutils:
-            ensure: present
-        compat-libcap1:
-            ensure: present
-        compat-libstdc++-33:
-            ensure: present
-        gcc:
-            ensure: present
-        gcc-c++:
-            ensure: present
-        glibc:
-            ensure: present
-        glibc-devel:
-            ensure: present
         ksh:
             ensure: present
-        libaio:
-            ensure: present
-        libaio-devel:
-            ensure: present
-        libgcc:
-            ensure: present
-        libstdc++:
-            ensure: present
-        libXi:
-            ensure: present
-        make:
-            ensure: present
-        sysstat:
-            ensure: present
-
 
     group:
         informatica:
