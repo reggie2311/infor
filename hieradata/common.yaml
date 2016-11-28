@@ -5,7 +5,10 @@ classes:
     - hash_resources
 
 hash_resources::resources:
-
+    package:
+         ksh:
+            ensure: present    
+   
     group:
         informatica:
             ensure: present
