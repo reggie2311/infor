@@ -172,7 +172,7 @@ hash_resources::resources:
     file:
       test:
            ensure: directory 
-           source: /tmp/test
+           path: /tmp/test
            owner:  root
            group:  wheel
            mode:   0750
