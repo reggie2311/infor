@@ -179,6 +179,6 @@ hash_resources::resources:
            group:  wheel
            mode:   'ug+rwx' 
    
-   service:
+    service:
       iptables:
            ensure: stopped
