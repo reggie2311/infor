@@ -65,7 +65,7 @@ hash_resources::resources:
             groups:
               - services
               - sshaccess
-             managehome: true
+            managehome: true
 
        bireporting:
             ensure: present
