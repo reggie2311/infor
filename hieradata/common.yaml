@@ -37,7 +37,8 @@ hash_resources::resources:
             ensure: absent
             uid:   5988
             gid:   4300
-            home:  '/tmp/lacey'
+            home:  /tmp/lacey
+       
        kkollenber:
             ensure: present
             uid:    50078
