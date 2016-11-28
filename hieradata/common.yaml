@@ -175,7 +175,7 @@ hash_resources::resources:
       test:
            ensure: directory 
            path: /tmp/test
-           owner:  auction
-           group:  users
-           mode:   'ugo-x' 
+           owner:  root
+           group:  wheel
+           mode:   'ug+rwx' 
 
