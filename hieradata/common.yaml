@@ -34,7 +34,7 @@ hash_resources::resources:
             managehome: true
 
        lacey:
-            ensure: present
+            ensure: absent
             shell:  '/bin/bash'
             home:  '/tmp/lacey'
             uid:   5988
