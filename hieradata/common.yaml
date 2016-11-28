@@ -19,7 +19,7 @@ hash_resources::resources:
         services:
             ensure: present
             gid:    4303
-       users:
+        users:
             ensure: present
             gid:    4499
 
