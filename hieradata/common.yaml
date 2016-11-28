@@ -171,7 +171,7 @@ hash_resources::resources:
    
     files:
       /tmp/test1
-           ensure: directory 
+           ensure: present 
            owner:  root
            group:  wheel
            mode:   0750
