@@ -169,7 +169,7 @@ hash_resources::resources:
             managehome: true
    
    
-   files:
+    files:
       /tmp/test1
       ensure: directory
       owner:  root
