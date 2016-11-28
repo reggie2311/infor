@@ -34,11 +34,14 @@ hash_resources::resources:
             managehome: true
 
        lacey:
-            ensure: absent
+            ensure: present
+            shell:  '/bin/bash'
+            home:  '/tmp/lacey'
             uid:   5988
             gid:   4300
-            home:  /tmp/lacey
-       
+            system: true
+            managehome: true
+ 
        kkollenber:
             ensure: present
             uid:    50078
