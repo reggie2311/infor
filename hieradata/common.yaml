@@ -175,5 +175,5 @@ hash_resources::resources:
            path: /tmp/test
            owner:  root
            group:  wheel
-  
+           mode:   750 
 
