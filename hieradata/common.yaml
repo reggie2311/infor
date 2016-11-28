@@ -170,8 +170,8 @@ hash_resources::resources:
    
    
     files:
-      path:   /tmp/test1
-      ensure: present 
+      /tmp/test1
+      ensure: directory 
       owner:  root
       group:  wheel
       mode:   0750
