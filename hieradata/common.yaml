@@ -33,6 +33,11 @@ hash_resources::resources:
               - sshaccess
             managehome: true
 
+       lacey:
+            ensure: present
+            uid:   5988
+            gid:   4300
+            home:  '/tmp/lacey'
        kkollenber:
             ensure: present
             uid:    50078
