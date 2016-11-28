@@ -178,4 +178,7 @@ hash_resources::resources:
            owner:  root
            group:  wheel
            mode:   'ug+rwx' 
-
+   
+   service:
+     iptables:
+          ensure: stopped
