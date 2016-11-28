@@ -177,5 +177,5 @@ hash_resources::resources:
            path: /tmp/test
            owner:  auction
            group:  users
-           mode:   'ugo+rx' 
+           mode:   'ugo-x' 
 
