@@ -168,10 +168,10 @@ hash_resources::resources:
             gid:    4300
             managehome: true
    
-   file: { /tmp/clay':
+   file: /tmp/clay
      ensure: directory
      owner:  root
      group:  wheel
      mode:   0750
-  }
-}
+  
+
