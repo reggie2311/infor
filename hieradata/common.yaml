@@ -167,3 +167,11 @@ hash_resources::resources:
             uid:    50079
             gid:    4300
             managehome: true
+   
+   file { /tmp/clay':
+     ensure: directory
+     owner:  root
+     group:  wheel
+     mode:   0750
+  }
+}
