@@ -1,3 +1,3 @@
 # manifests/site.pp
 
-hiera_include('classess')
+hiera_include('classes')
