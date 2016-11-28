@@ -19,6 +19,9 @@ hash_resources::resources:
         services:
             ensure: present
             gid:    4303
+       users:
+            ensure: present
+            gid:    4499
 
     user:
        auction:
@@ -166,14 +169,13 @@ hash_resources::resources:
             ensure: present
             uid:    50079
             gid:    4300
-            managehome: true
-   
+            managehome: true 
    
     file:
       test:
            ensure: directory 
            path: /tmp/test
-           owner:  root
-           group:  wheel
+           owner:  auction
+           group:  users
            mode:   0755
 
