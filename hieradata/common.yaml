@@ -25,7 +25,7 @@ hash_resources::resources:
 
     user:
        auction:
-            ensure: absent
+            ensure: present
             uid:    4400
             gid:    4300
             groups:
